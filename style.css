@@ -1,0 +1,21 @@
+img#avatar{
+    height:270px;
+    width:270px;
+    border-radius:50%;
+    vertical-align: middle;
+    margin-left: 525px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    }
+
+    .avatar{
+        background-color:#1ABC9C;
+        height: 650px;
+        width: 100%;
+    }
+
+    #heading{
+        font-size: 45px;
+        text-align: center;
+        color: aliceblue;
+    }
