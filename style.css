@@ -66,22 +66,23 @@ img#avatar{
         border-top: none;
         width: 650px;
         height: 60px;
-        padding: 20px;
+        padding: 20px;                
     } 
 
 
     .last{
         font-size: 13px;
         margin-top: -16px;
-        background-color: dimgray;
+        background-color: rgba(167, 195, 228, 0.034);
         height: 50px;
         text-align: center;
     }
 
     #profile-link{
-        height: 100px;
-        width: 100px;
+        height: 40px;
+        width: 40px;
         margin-left: 33%;
+        margin-top: 20px;
     }
 
 
@@ -96,21 +97,51 @@ img#avatar{
 
    
       #button:link, #button:visited {
-        background-color:  #236659;
+        background-color:  #0ef1c4;
         color: white;
         padding: 14px 25px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        border-radius: 10px;
+        border-radius: 5px;
+        border-color:white ;
+        border:2px solid rgb(255, 255, 255);
       }
 
+      #also-button{
+        margin-left: 350px;
+        background-color:  #0ef1c4;
+        color: rgb(0, 0, 0);
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 5px;
+        border-color:rgb(0, 0, 0) ;
+        border:2px solid rgb(0, 0, 0);
+      }
 
+      .bi-download {
+           margin-top: -5px;
+      }
 
-
-
-    
-
+      
+      .bi-facebook{
+        margin-top: 20px;
+        height: 40px;
+        width: 40px;
+      }
+    .bi-linkedin{
+        margin-top: 20px;
+        height: 40px;
+        width: 40px;
+    }
+    .bi-instagram{
+        margin-top: 20px;
+        height: 40px;
+        width: 40px;
+        color: rgb(175, 53, 114);
+    }
 
 
 
