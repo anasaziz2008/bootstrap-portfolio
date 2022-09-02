@@ -28,7 +28,7 @@ img#avatar{
     }
     .about{
         background-color: #1ABC9C;    
-        height: 500px; 
+        height: 550px; 
         margin-top: 80px;
     
     }
@@ -55,23 +55,61 @@ img#avatar{
         margin-top: 50px;
         margin-left: 580px;
         background-color: #1ABC9C;
-     
+     color:#ccc;
      }
 
+     #name{
+        font-size: 20px;
+        margin-left: 350px;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        width: 650px;
+        height: 60px;
+        padding: 20px;
+    } 
+
+
+    .last{
+        font-size: 13px;
+        margin-top: -16px;
+        background-color: dimgray;
+        height: 50px;
+        text-align: center;
+    }
+
+    #profile-link{
+        height: 100px;
+        width: 100px;
+        margin-left: 33%;
+    }
+
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #1ABC9C;
+        height: 200px;
+    
+    }
+
+   
+      #button:link, #button:visited {
+        background-color:  #236659;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 10px;
+      }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
+    
 
 
 
