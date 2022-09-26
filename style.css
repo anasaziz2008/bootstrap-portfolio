@@ -3,13 +3,16 @@ img#avatar {
   width: 270px;
   border-radius: 50%;
   vertical-align: middle;
-
+  margin-left: 35%;
   margin-top: 150px;
   margin-bottom: 30px;
 }
 
 .avatar {
   background-color: #1abc9c;
+  max-width: 100%;
+  min-width: 153.5vh;
+  height: auto;
  
 }
 
@@ -22,13 +25,16 @@ img#avatar {
 
 #text {
   margin-bottom: 50px;
-  text-align: center;
+ text-align: center;
   color: #2c3e50;
 }
 .about {
   background-color: #1abc9c;
-  height: 550px;
+  height: auto;
   margin-top: 80px;
+  max-width: 100%;
+  min-width: 153.5vh;
+
 }
 
 #text2 {
@@ -142,6 +148,7 @@ img#avatar {
   backface-visibility: hidden;
   height: 214px;
   width: 296px;
+ margin-left: 50%;
 }
 
 .middle {
