@@ -2,7 +2,7 @@ img#avatar {
   height: 270px;
   width: 270px;
   border-radius: 50%;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 30px;
 
   position: relative;
@@ -16,13 +16,9 @@ img#avatar {
   background-color: #1abc9c;
   max-width: 110%;
   min-width: 111vh;
- 
+ min-height: auto;
+ max-height: 500vh;
 }  
-.portfolio{
-  max-width: 110%;
-  min-width: 111vh;
-
-}
 
 #heading {
   font-size: 60px;   
@@ -31,263 +27,21 @@ img#avatar {
  
 }
 
+#h3{
+  text-align: center;
+  color: aliceblue;
+}
+
+.portfolio{
+max-width: 110%;
+min-width: 107vh;
+
+ 
+}
 #text {
-  margin-bottom: 50px;
+  margin-bottom: 40px;  
    text-align: center;
-  color: #2c3e50;
-}
-.about {
-  background-color: #1abc9c;
-  height: auto;
-  margin-top: 80px;
-  max-width: 100%;
-  min-width: 100vh;
-
+   color: #2c3e50;
+   
 }
 
-#text2 {
-  margin-top: 60px;
-  color: azure;
-  text-align: center;
-  font-size: 50px;
-}
-
-#free {
-  text-align: justify;
-  margin-left: 350px;
-  margin-top: 50px;
-}
-
-/* #button {
-  border-color: white;
-  height: 50px;
-  width: 200px;
-  margin-top: 50px;
-  margin-left: 580px;
-  background-color: #1abc9c;
-  color: #ccc;
-} */
-
-
-
-.last {
-  font-size: 13px;
-  margin-top: -16px;
-  background-color: rgba(167, 195, 228, 0.034);
-  height: 50px;
-  text-align: center;
-}
-
-#profile-link {
-  height: 40px;
-  width: 40px;
-  margin-left: 20%;
-  margin-top: 20px;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-  background-color: #1abc9c;
-  height: 200px;
-}
-
-#button:link,
-#button:visited {
-  background-color: #0ef1c4;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 5px;
-  border-color: white;
-  border: 2px solid rgb(255, 255, 255);
-}
-
-#also-button {
-  margin-left: 350px;
-  background-color: #0ef1c4;
-  color: rgb(0, 0, 0);
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 5px;
-  border-color: rgb(0, 0, 0);
-  border: 2px solid rgb(0, 0, 0);
-  margin-top: 10px;
-}
-
-.bi-download {
-  margin-top: -5px;
-}
-
-.bi-facebook {
-  margin-top: 20px;
-  height: 40px;
-  width: 40px;
-}
-.bi-linkedin {
-  margin-top: 20px;
-  height: 40px;
-  width: 40px;
-}
-.bi-instagram {
-  margin-top: 20px;
-  height: 40px;
-  width: 40px;
-  color: rgb(175, 53, 114);
-}
-
-.container {
-  position: relative;
-}
-
-.image {
-  border-radius: 15px;
-  overflow: hidden;
-  opacity: 1;
-  
-  justify-content: space-between;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
-  height: 214px;
-  width: 296px;
- 
-}
-
-.middle {
-  /* transition: 0.5s ease; */
-  opacity: 0;
-  position: absolute;
- 
-  color: red;
-
-   /* transform: translate(50%, 50%); 
-   -ms-transform: translate(50%, 50%);  */
-  text-align: center;
-  font-size: 100px;
-}
-
-.container:hover .image {
-  opacity: 0.5;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg:hover {
-  opacity: 0.7;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  padding-top: 100px;
-  /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9);
-  /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 500px;
-  height: 400px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 100px;
-}
-
-/* Add Animation */
-.modal-content,
-#caption {
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.89s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {
-    -webkit-transform: scale(0);
-  }
-
-  to {
-    -webkit-transform: scale(1);
-  }
-}
-
-@keyframes zoom {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(1);
-  }
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
-  .modal-content {
-    width: 100%;
-  }
-}
