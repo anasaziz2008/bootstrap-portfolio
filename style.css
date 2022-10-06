@@ -14,7 +14,6 @@ img#avatar {
 
 .avatar {
   background-color: #1abc9c;
-  
 height: auto;
  
 }  
@@ -47,8 +46,8 @@ min-width: 107vh;
 .image {
   opacity: 1;
   display: block;
-  width: 34%;
-  height: 100px;
+  width: 100%;
+  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 
