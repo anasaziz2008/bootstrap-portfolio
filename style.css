@@ -30,12 +30,7 @@ height: auto;
   color: aliceblue;
 }
 
-/* .portfolio{
-max-width: 110%;
-min-width: 107vh;
 
- 
-} */
 #text {
   margin-bottom: 40px;  
    
@@ -51,6 +46,7 @@ min-width: 107vh;
   transition: .5s ease;
   backface-visibility: hidden;
 
+
 }
 
 /* .middle {
@@ -64,13 +60,14 @@ min-width: 107vh;
   text-align: center;
 } */
 
-.container:hover .image {
+ .container:hover .image {
   opacity: 0.3;
+  cursor: pointer;
 }
-
+/*
 .container:hover .middle {
   opacity: 1;
-}
+} */
 
 /* 
 .text {
@@ -80,7 +77,32 @@ min-width: 107vh;
   padding: 16px 32px;
 } */
 
+#contactForm {
+    display: block;
+    margin-top: 0em;
+  }
+
+#name{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+   
+}
 
 
+#email{
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
 
-
+#phone{
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+#message{
+  border-right: none;
+    border-left: none;
+    border-top: none;
+}
