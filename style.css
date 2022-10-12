@@ -88,8 +88,10 @@ height: auto;
     border-top: none;
    
 }
-#form{
+#contact{
   flex-wrap: wrap;
+  display: block;
+  
 }
 
 #email{
@@ -108,3 +110,13 @@ height: auto;
     border-left: none;
     border-top: none;
 }
+ 
+#about{
+  background-color: #1abc9c;
+  min-height: auto;
+  
+}
+
+
+
+
